@@ -45,16 +45,14 @@ body {
 
 .card p {
   line-height: 2.6rem;
+  margin: 0 0 40px;
 }
 
-.card button {
+.card a {
+  text-decoration: none;
   padding: 1.4rem 2.8rem;
-  margin: 25px 0 10px;
-  border: none;
   border-radius: 50px;
   background-color: var(--very-light-gray);
-  font-weight: 700;
-  font-family: var(--primary-font);
 }
 
 .card .first-section {
@@ -63,7 +61,7 @@ body {
   background-color: var(--bright-orange);
 }
 
-.card .first-section button {
+.card .first-section a {
   color: var(--bright-orange);
 }
 
@@ -72,7 +70,7 @@ body {
   background-color: var(--dark-cyan);
 }
 
-.card .second-section button {
+.card .second-section a {
   color: var(--dark-cyan);
 }
 
@@ -82,8 +80,14 @@ body {
   background-color: var(--very-dark-cyan);
 }
 
-.card .third-section button {
+.card .third-section a {
   color: var(--very-dark-cyan);
+}
+
+.card a:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
 }
 
 .attribution {
